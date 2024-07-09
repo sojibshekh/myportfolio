@@ -4,3 +4,43 @@
     margin: 0;
     padding: 0;
 }
+.main{
+ max-width: 1140px;
+ margin: 0 auto;
+ font-family: "Azeret Mono", monospace;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+}
+.myname{
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+}
+.primary-button{
+    padding: 17px 24px;
+    font-size: 20px;
+    font-weight: 600;
+    background: transparent;
+    color: rgb(13, 19, 33);
+    border: 2px solid rgb(13, 19, 33);
+    
+
+}
+#banner{
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 652px;
+    
+}
+#banner img{
+    max-width: 240px;
+    max-height: 240px;
+  
+}
