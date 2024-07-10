@@ -80,11 +80,14 @@
     width: 1140px;
     padding: 80px 97px;
     background-color: rgba(13,19,33,0.2) ;
+    margin: 0 auto;
+    font-family: "Azeret Mono", monospace;
 }
 .section-top{
     text-align: center;
     padding: 0px 47px;
     padding-bottom: 47px;
+    
 }
 .section-titile{
     color: #0D1321;
@@ -127,4 +130,31 @@
     padding: 12px 20px;
     color: rgb(13, 19, 33) ;
     border: 1px solid rgb(13, 19, 33);
+}
+.tow-box{
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    margin: 16px 0px;
+    padding: 48px;
+    
+}
+#myins{
+    max-width: 1140px;
+    margin: 0 auto;
+    font-family: "Azeret Mono", monospace;
+    padding-top: 30px;
+}
+.video{
+    text-align: center;
+    border: 1px solid #333;
+    padding: 10px;
+    border-radius: 8px;
+}
+iframe{
+  
+
+    border-radius: 8px;
+
 }
