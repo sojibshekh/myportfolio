@@ -21,12 +21,13 @@
     font-weight: 800;
 }
 .primary-button{
-    padding: 17px 24px;
+    padding: 16px 24px;
     font-size: 20px;
     font-weight: 600;
     background: transparent;
     color: rgb(13, 19, 33);
     border: 2px solid rgb(13, 19, 33);
+    cursor: pointer;
     
 
 }
@@ -74,6 +75,7 @@
     font-weight: 600;
     border: none;
     border-radius: 8px;
+    text-decoration: none;
 }
 
 #about{
@@ -238,7 +240,7 @@ iframe{
    border: 1px solid rgba(13, 19, 33, 0.15);
 }
 .support-bg button{
-    padding: 16px 20px;
+    padding: 15px 20px;
     border-radius: 8px;
     color: #000;
     background-color: rgb(255, 255, 255);
@@ -246,4 +248,23 @@ iframe{
     font-weight: 600;
     border: none;
     cursor: pointer;
+}
+
+footer{
+    background-color: rgba(13, 19, 33, 0.03);
+    margin-top: 50px;
+}
+#footer{
+    width: 1140px;
+ 
+    margin: 0 auto;
+    font-family: "Azeret Mono", monospace;  
+    display: flex;
+    padding: 30px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+.fot-text h3{
+    font-size: 20px;
+    font-weight: 600;
 }
